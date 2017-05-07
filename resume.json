@@ -1,0 +1,170 @@
+{
+  "basics": {
+    "name": "Ivan du Toit",
+    "label": "Software Development Engineer",
+    "picture": "",
+    "email": "anilihst@gmail.com",
+    "phone": "0760926242",
+    "website": "https://tryfinally.co.za",
+    "summary": "Ivan du Toit is an eager learner willing to do any task that delivers the most value to the business, large or small. He has a record of keeping track of complex domains while leading high performance teams at companies like Amazon Web Services",
+    "location": {
+      "city": "CapeTown",
+      "countryCode": "ZA",
+      "region": "Western Cape"
+    },
+    "profiles": [
+      {
+        "network": "Linkedin",
+        "username": "Ivan-du-toit",
+        "url": "https://za.linkedin.com/in/ivan-du-toit-33a93013"
+      },
+      {
+        "network": "Github",
+        "username": "Ivan-du-toit",
+        "url": "https://github.com/Ivan-du-toit"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Amazon",
+      "position": "Amazon Web Services (Software Development Engineer II)",
+      "startDate": "2016-09-01",
+      "summary": "I am the team lead for the team that builds the EC2 (https://console.aws.amazon.com/ec2/home) management console. My focus is on increasing operational excellence and increasing our delivery velocity. This includes training new team members and driving the development of a DSL and framework to allow us to delivery more value to out customers, faster.",
+      "highlights": [
+        "Driving and getting projects delivered across teams"
+        ,"Steering and delivering a platform for increase delivery in multiple team"
+        ,"Increased normalized project delivery by 50% YoY for 2 years while the team only grew 10%"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "position": "Amazon (Software Development Engineer)",
+      "startDate": "2014-04-01",
+      "endDate": "2016-08-30",
+      "summary": "I worked in the User Experience team to build the EC2 (https://console.aws.amazon.com/ec2/home) and VPC (console.aws.amazon.com/vpc/home) management consoles. To increase my exposure I am also involved in EC2 API design. Giving back is also important to me by helping newbies in operational excellence 101 training along with mentoring and helping interns",
+      "highlights": [
+        "Reducing my teams operation incidents and load by 20% by driving good operational practice"
+        ,"Training all new on-calls to prepare for their first rotation"
+        ,"Initiating and delivering two big customer asks without impacting the teams roadmap"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "position": "(Software Development Engineer - Intern",
+      "startDate": "2013-12-02",
+      "endDate": "2014-03-30",
+      "summary": "I worked in the User Experience team to build a UI testing framework based on CasperJS and PhantomJS.",
+      "highlights": [
+        "Learned a lot about testing and the impact of good testing on velocity"
+        ,"The framework and design is the bases of the testing used 3 years later"
+      ]
+    },
+    {
+      "company": "University of Pretoria (Teaching Assistant)",
+      "position": "Teaching Assistant",
+      "startDate": "2012-02-01",
+      "endDate": "2012-12-01",
+      "summary": "I helped students in the COS 151 and COS 110 modules to understand programming practice and complete the course work successfully."
+    },
+    {
+      "company": "Alfega Technologies",
+      "position": "Programmer",
+      "startDate": "2008-06-01",
+      "endDate": "2011-01-30",
+      "summary": "Web applications development and testing including creating a custom content management system. Lead development on the CMS during the last year.",
+      "highlights": [
+        "Built custom CMS solution"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Pretoria",
+      "area": "Computer Science",
+      "studyType": "BSc",
+      "startDate": "2011-02-01",
+      "endDate": "2013-12-02",
+      "courses": [
+        "COS314 - Artificial intelligence"
+        ,"OBS114 - Business management"
+        ,"OBS124 - Business management"
+        ,"WTW114 - Calculus"
+        ,"WTW128 - Calculus"
+        ,"ERA284 - Computer architecture"
+        ,"COS226 - Concurrent systems"
+        ,"COS212 - Data structures and algorithms"
+        ,"WTW115 - Discrete structures"
+        ,"WTW285 - Discrete structures 2"
+        ,"PHY171 - First course in physics"
+        ,"COS132 - Imperative programming"
+        ,"INF214 - Informatics"
+        ,"INL240 - Information science"
+        ,"COS151 - Introduction to computer Science"
+        ,"WTW126 - Linear Algebra"
+        ,"WTW152 - Mathematical modelling"
+        ,"COS216 - Netcentric computer systems"
+        ,"COS110 - Program design: Introduction"
+        ,"COS222 - Operating systems"
+        ,"STK110 + STK120 - Statistics"
+        ,"COS121 - Software modelling and design patterns"
+      ]
+    },
+    {
+      "institution": "Online Courses",
+      "startDate": "2011-02-01",
+      "courses": [
+        "CS258 - Software Testing(Udacity.com)"
+        ,"Introduction to Artificial Intelligence at ai-class.com"
+        ,"Learning how to learn (Coursera)"
+        ,"Machine Learning by Andrew Ng (Coursera)"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "GWT",
+        "AngularJs"
+      ]
+    },
+    {
+      "name": "Stateless backend development",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "Spring"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "Cloud",
+        "Infrastructure as code"
+      ]
+    }
+
+  ],
+  "languages": [
+    {
+      "language": "Afrikaans",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Fencing"
+    }
+  ]
+}
