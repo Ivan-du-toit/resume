@@ -2,7 +2,7 @@
   "basics": {
     "name": "Ivan du Toit",
     "label": "Software Development Engineer",
-    "picture": "",
+	"picture": "http://tryfinally.co.za/img/profile.jpg",
     "email": "anilihst@gmail.com",
     "phone": "0760926242",
     "website": "https://tryfinally.co.za",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "company": "University of Pretoria (Teaching Assistant)",
+      "company": "University of Pretoria",
       "position": "Teaching Assistant",
       "startDate": "2012-02-01",
       "endDate": "2012-12-01",
@@ -150,8 +150,29 @@
         "Infrastructure as code"
       ]
     }
-
   ],
+  "awards": [{
+  	"title": "Golden Key International Invitation",
+    "awarder": "Golden Key International Honour Society",
+    "date": "2012-01-01",
+    "summary": "Recieved an invitation to join the socieity due to academic performance during the course of my studies."
+  }
+  ,{
+    "title": "U/20 SA Fencing colours",
+    "date": "2009-01-01",
+    "summary": "Recieved South African colours for U/20 Fencing"
+  }
+  ,{
+    "title": "U/20 National Fencing Champion",
+    "date": "2009-01-01",
+    "summary": "Won the South African U/20 nationals"
+  }
+  ,{
+    "title": "FIRST Robitics League Best Programmer",
+    "awarder": "FIRST Robitics League South Africa",
+    "date": "2006-01-01",
+    "summary": "Lead a team to participate in the FIRST Robotics League as part of a community outreach and enrichment program. Won the \"Best Programmer\" award at the FIRST Robitics League national finals in 2006."
+  }],
   "languages": [
     {
       "language": "Afrikaans",
@@ -164,7 +185,12 @@
   ],
   "interests": [
     {
-      "name": "Fencing"
+      "name": "Fencing",
+      "keywords": ["sport"]
+    },
+    {
+      "name": "Leasure",
+      "keywords": ["Reading", "Boardgames"]
     }
   ]
 }
