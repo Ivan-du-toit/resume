@@ -1,0 +1,591 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Ivan du Toit</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Ivan du Toit
+					</h1>
+					<h2>
+						Software Development Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">anilihst@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">0760926242</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://tryfinally.co.za">https://tryfinally.co.za</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Ivan du Toit is an eager learner willing to do any task that delivers the most value to the business, large or small. He has a record of keeping track of complex domains while leading high performance teams at companies like Amazon Web Services</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Linkedin
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://za.linkedin.com/in/ivan-du-toit-33a93013">Ivan-du-toit</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/Ivan-du-toit">Ivan-du-toit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Amazon</span>
+					<span class="date">
+						2016-09-01 — 
+					</span>
+				</h4>
+				<div class="position">
+					Amazon Web Services (Software Development Engineer II)
+				</div>
+				<div class="summary">
+					<p>I am the team lead for the team that builds the EC2 (https://console.aws.amazon.com/ec2/home) management console. My focus is on increasing operational excellence and increasing our delivery velocity. This includes training new team members and driving the development of a DSL and framework to allow us to delivery more value to out customers, faster.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Driving and getting projects delivered across teams</li>
+					<li class="bullet">Steering and delivering a platform for increase delivery in multiple team</li>
+					<li class="bullet">Increased normalized project delivery by 50% YoY for 2 years while the team only grew 10%</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Amazon</span>
+					<span class="date">
+						2014-04-01 — 2016-08-30
+					</span>
+				</h4>
+				<div class="position">
+					Amazon (Software Development Engineer)
+				</div>
+				<div class="summary">
+					<p>I worked in the User Experience team to build the EC2 (https://console.aws.amazon.com/ec2/home) and VPC (console.aws.amazon.com/vpc/home) management consoles. To increase my exposure I am also involved in EC2 API design. Giving back is also important to me by helping newbies in operational excellence 101 training along with mentoring and helping interns</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Reducing my teams operation incidents and load by 20% by driving good operational practice</li>
+					<li class="bullet">Training all new on-calls to prepare for their first rotation</li>
+					<li class="bullet">Initiating and delivering two big customer asks without impacting the teams roadmap</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Amazon</span>
+					<span class="date">
+						2013-12-02 — 2014-03-30
+					</span>
+				</h4>
+				<div class="position">
+					(Software Development Engineer - Intern
+				</div>
+				<div class="summary">
+					<p>I worked in the User Experience team to build a UI testing framework based on CasperJS and PhantomJS.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Learned a lot about testing and the impact of good testing on velocity</li>
+					<li class="bullet">The framework and design is the bases of the testing used 3 years later</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Pretoria (Teaching Assistant)</span>
+					<span class="date">
+						2012-02-01 — 2012-12-01
+					</span>
+				</h4>
+				<div class="position">
+					Teaching Assistant
+				</div>
+				<div class="summary">
+					<p>I helped students in the COS 151 and COS 110 modules to understand programming practice and complete the course work successfully.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Alfega Technologies</span>
+					<span class="date">
+						2008-06-01 — 2011-01-30
+					</span>
+				</h4>
+				<div class="position">
+					Programmer
+				</div>
+				<div class="summary">
+					<p>Web applications development and testing including creating a custom content management system. Lead development on the CMS during the last year.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Built custom CMS solution</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Pretoria</span>
+					<span class="date">
+						2011-02-01 — 2013-12-02
+					</span>
+				</h4>
+				<div class="area">
+					Computer Science
+				</div>
+				<div class="studyType">
+					BSc
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>COS314 - Artificial intelligence</li>
+					<li>OBS114 - Business management</li>
+					<li>OBS124 - Business management</li>
+					<li>WTW114 - Calculus</li>
+					<li>WTW128 - Calculus</li>
+					<li>ERA284 - Computer architecture</li>
+					<li>COS226 - Concurrent systems</li>
+					<li>COS212 - Data structures and algorithms</li>
+					<li>WTW115 - Discrete structures</li>
+					<li>WTW285 - Discrete structures 2</li>
+					<li>PHY171 - First course in physics</li>
+					<li>COS132 - Imperative programming</li>
+					<li>INF214 - Informatics</li>
+					<li>INL240 - Information science</li>
+					<li>COS151 - Introduction to computer Science</li>
+					<li>WTW126 - Linear Algebra</li>
+					<li>WTW152 - Mathematical modelling</li>
+					<li>COS216 - Netcentric computer systems</li>
+					<li>COS110 - Program design: Introduction</li>
+					<li>COS222 - Operating systems</li>
+					<li>STK110 + STK120 - Statistics</li>
+					<li>COS121 - Software modelling and design patterns</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Online Courses</span>
+					<span class="date">
+						2011-02-01 — 
+					</span>
+				</h4>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>CS258 - Software Testing(Udacity.com)</li>
+					<li>Introduction to Artificial Intelligence at ai-class.com</li>
+					<li>Learning how to learn (Coursera)</li>
+					<li>Machine Learning by Andrew Ng (Coursera)</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Golden Key International Invitation</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2012
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Golden Key International Honour Society</strong>
+				</div>
+				<div class="summary">
+					Recieved an invitation to join the socieity due to academic performance during the course of my studies.
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>U/20 SA Fencing colours</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2009
+				</div>
+				<div class="summary">
+					Recieved South African colours for U/20 Fencing
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>U/20 National Fencing Champion</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2009
+				</div>
+				<div class="summary">
+					Won the South African U/20 nationals
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>FIRST Robitics League Best Programmer</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2006
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>FIRST Robitics League South Africa</strong>
+				</div>
+				<div class="summary">
+					Lead a team to participate in the FIRST Robotics League as part of a community outreach and enrichment program. Won the &quot;Best Programmer&quot; award at the FIRST Robitics League national finals in 2006.
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Web Development</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>GWT</li>
+					<li>AngularJs</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Stateless backend development</h4>
+				</div>
+				<ul class="keywords">
+					<li>Java</li>
+					<li>Spring</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Devops</h4>
+				</div>
+				<ul class="keywords">
+					<li>AWS</li>
+					<li>Cloud</li>
+					<li>Infrastructure as code</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Afrikaans</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Fencing</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>
