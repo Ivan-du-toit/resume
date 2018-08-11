@@ -1,8 +1,8 @@
 {
   "basics": {
     "name": "Ivan du Toit",
-    "label": "Software Development Engineer",
-	"picture": "http://tryfinally.co.za/img/profile.jpg",
+    "label": "Snr Software Development Engineer",
+    "picture": "http://tryfinally.co.za/img/profile.jpg",
     "email": "anilihst@gmail.com",
     "phone": "0760926242",
     "website": "https://tryfinally.co.za",
@@ -28,25 +28,41 @@
   "work": [
     {
       "company": "Amazon",
-      "position": "Amazon Web Services (Software Development Engineer II)",
-      "startDate": "2016-09-01",
-      "summary": "I am the team lead for the team that builds the EC2 (https://console.aws.amazon.com/ec2/home) management console. My focus is on increasing operational excellence and increasing our delivery velocity. This includes training new team members and driving the development of a DSL and framework to allow us to delivery more value to out customers, faster.",
+      "position": "Amazon Web Services (Software Development Engineer III)",
+      "startDate": "2020-04-01",
+      "summary": "Focus on migrating our legacy GWT stack to a new React based stack as well as a new design system. I also own the management of our shared component repository and drive adoption of a consistent experience and quality across 8 console teams",
       "highlights": [
-        "Driving and getting projects delivered across teams"
-        ,"Steering and delivering a platform for increase delivery in multiple team"
-        ,"Increased normalized project delivery by 50% YoY for 2 years while the team only grew 10%"
+        "Create and drive code sharing by changing org culture towards code sharing and ownership",
+        "Create tools to facility code and design sharing",
+        "Build a analytics solution for our product to drive data driven decisions",
+        "Guide design and migration of our backend infrastructure to a AWS native and serverless solutions"
       ]
     },
     {
       "company": "Amazon",
-      "position": "Amazon (Software Development Engineer)",
+      "position": "Amazon Web Services (Software Development Engineer II)",
+      "startDate": "2016-09-01",
+      "endDate": "2020-04-01",
+      "summary": "I am the team lead for the team that builds the <a href=\"https://console.aws.amazon.com/ec2/home\">EC2 management console</a>. My focus is on increasing operational excellence and increasing our delivery velocity. This includes training new team members and driving the development of a DSL and framework to allow us to delivery more value to out customers, faster.",
+      "highlights": [
+        "Driving and getting projects delivered across teams",
+        "Steering and delivering a platform for increase delivery in multiple team",
+        "Increased normalized project delivery by 50% YoY for 2 years while the team only grew 10%",
+        "Driving the architectural and team changes required by the rapid scaling we are going though",
+        "Course creator and presenter for first time oncalls",
+        "API and customer experience bar raiser for EC2"
+      ]
+    },
+    {
+      "company": "Amazon Web Services",
+      "position": "Software Development Engineer",
       "startDate": "2014-04-01",
       "endDate": "2016-08-30",
-      "summary": "I worked in the User Experience team to build the EC2 (https://console.aws.amazon.com/ec2/home) and VPC (console.aws.amazon.com/vpc/home) management consoles. To increase my exposure I am also involved in EC2 API design. Giving back is also important to me by helping newbies in operational excellence 101 training along with mentoring and helping interns",
+      "summary": "I worked in the User Experience team to build the < href=\"https://console.aws.amazon.com/ec2/home\">EC2</a> and <a href=\"console.aws.amazon.com/vpc/home\">VPC</a> management consoles. To increase my exposure I am also involved in EC2 API design. Giving back is also important to me by helping newbies in operational excellence 101 training along with mentoring and helping interns",
       "highlights": [
-        "Reducing my teams operation incidents and load by 20% by driving good operational practice"
-        ,"Training all new on-calls to prepare for their first rotation"
-        ,"Initiating and delivering two big customer asks without impacting the teams roadmap"
+        "Reducing my teams operation incidents and load by 20% by driving good operational practice",
+        "Training all new on-calls to prepare for their first rotation",
+        "Initiating and delivering two big customer asks without impacting the teams roadmap"
       ]
     },
     {
@@ -56,8 +72,8 @@
       "endDate": "2014-03-30",
       "summary": "I worked in the User Experience team to build a UI testing framework based on CasperJS and PhantomJS.",
       "highlights": [
-        "Learned a lot about testing and the impact of good testing on velocity"
-        ,"The framework and design is the bases of the testing used 3 years later"
+        "Learned a lot about testing and the impact of good testing on velocity",
+        "The framework and design is the bases of the testing used 3 years later"
       ]
     },
     {
@@ -73,9 +89,7 @@
       "startDate": "2008-06-01",
       "endDate": "2011-01-30",
       "summary": "Web applications development and testing including creating a custom content management system. Lead development on the CMS during the last year.",
-      "highlights": [
-        "Built custom CMS solution"
-      ]
+      "highlights": ["Built custom CMS solution"]
     }
   ],
   "education": [
@@ -86,46 +100,46 @@
       "startDate": "2011-02-01",
       "endDate": "2013-12-02",
       "courses": [
-        "COS314 - Artificial intelligence"
-        ,"OBS114 - Business management"
-        ,"OBS124 - Business management"
-        ,"WTW114 - Calculus"
-        ,"WTW128 - Calculus"
-        ,"ERA284 - Computer architecture"
-        ,"COS226 - Concurrent systems"
-        ,"COS212 - Data structures and algorithms"
-        ,"WTW115 - Discrete structures"
-        ,"WTW285 - Discrete structures 2"
-        ,"PHY171 - First course in physics"
-        ,"COS132 - Imperative programming"
-        ,"INF214 - Informatics"
-        ,"INL240 - Information science"
-        ,"COS151 - Introduction to computer Science"
-        ,"WTW126 - Linear Algebra"
-        ,"WTW152 - Mathematical modelling"
-        ,"COS216 - Netcentric computer systems"
-        ,"COS110 - Program design: Introduction"
-        ,"COS222 - Operating systems"
-        ,"STK110 + STK120 - Statistics"
-        ,"COS121 - Software modelling and design patterns"
+        "COS314 - Artificial intelligence",
+        "OBS114 - Business management",
+        "OBS124 - Business management",
+        "WTW114 - Calculus",
+        "WTW128 - Calculus",
+        "ERA284 - Computer architecture",
+        "COS226 - Concurrent systems",
+        "COS212 - Data structures and algorithms",
+        "WTW115 - Discrete structures",
+        "WTW285 - Discrete structures 2",
+        "PHY171 - First course in physics",
+        "COS132 - Imperative programming",
+        "INF214 - Informatics",
+        "INL240 - Information science",
+        "COS151 - Introduction to computer Science",
+        "WTW126 - Linear Algebra",
+        "WTW152 - Mathematical modelling",
+        "COS216 - Netcentric computer systems",
+        "COS110 - Program design: Introduction",
+        "COS222 - Operating systems",
+        "STK110 + STK120 - Statistics",
+        "COS121 - Software modelling and design patterns"
       ]
     },
     {
       "institution": "Online Courses",
       "startDate": "2011-02-01",
       "courses": [
-        "CS258 - Software Testing(Udacity.com)"
-        ,"Introduction to Artificial Intelligence at ai-class.com"
-        ,"Learning how to learn (Coursera)"
-        ,"Machine Learning by Andrew Ng (Coursera)"
+        "CS258 - Software Testing(Udacity.com)",
+        "Introduction to Artificial Intelligence at ai-class.com",
+        "Learning how to learn (Coursera)",
+        "Machine Learning by Andrew Ng (Coursera)"
       ]
     },
     {
-        "institution": "Qwiklabs",
-        "startDate": "2014-02-24",
-        "courses": [
-            "various: https://www.qwiklabs.com/public_profiles/24d1e509-e20a-4dbc-b358-21d67493b5b1"
-        ]
+      "institution": "Qwiklabs",
+      "startDate": "2014-02-24",
+      "courses": [
+        "various: https://www.qwiklabs.com/public_profiles/24d1e509-e20a-4dbc-b358-21d67493b5b1"
+      ]
     }
   ],
   "skills": [
@@ -133,53 +147,38 @@
       "name": "Web Development",
       "level": "Master",
       "keywords": [
+        "React",
+        "Redux",
+        "ReduxToolkit",
+        "Typescript",
+        "Webpack",
+        "Babel",
         "HTML",
         "CSS",
         "Javascript",
         "GWT",
-        "AngularJs"
+        "AngularJs",
+        "React",
+        "Redux"
       ]
     },
     {
-      "name": "Stateless backend development",
+      "name": "Infrastructure and Design",
       "level": "Master",
       "keywords": [
-        "Java",
-        "Spring"
+        "Serverless",
+        "Cloudwatch",
+        "Lambda",
+        "API Gateway",
+        "Stateless service"
       ]
     },
     {
       "name": "Devops",
       "level": "Master",
-      "keywords": [
-        "AWS",
-        "Cloud",
-        "Infrastructure as code"
-      ]
+      "keywords": ["AWS", "Cloudfromation", "Infrastructure as code"]
     }
   ],
-  "awards": [{
-  	"title": "Golden Key International Invitation",
-    "awarder": "Golden Key International Honour Society",
-    "date": "2012-01-01",
-    "summary": "Recieved an invitation to join the socieity due to academic performance during the course of my studies."
-  }
-  ,{
-    "title": "U/20 SA Fencing colours",
-    "date": "2009-01-01",
-    "summary": "Recieved South African colours for U/20 Fencing"
-  }
-  ,{
-    "title": "U/20 National Fencing Champion",
-    "date": "2009-01-01",
-    "summary": "Won the South African U/20 nationals"
-  }
-  ,{
-    "title": "FIRST Robitics League Best Programmer",
-    "awarder": "FIRST Robitics League South Africa",
-    "date": "2006-01-01",
-    "summary": "Lead a team to participate in the FIRST Robotics League as part of a community outreach and enrichment program. Won the \"Best Programmer\" award at the FIRST Robitics League national finals in 2006."
-  }],
   "languages": [
     {
       "language": "Afrikaans",
@@ -196,7 +195,7 @@
       "keywords": ["sport"]
     },
     {
-      "name": "Leasure",
+      "name": "Leisure",
       "keywords": ["Reading", "Boardgames"]
     }
   ]
