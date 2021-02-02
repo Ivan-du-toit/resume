@@ -4,11 +4,11 @@
     "label": "Snr Software Development Engineer",
     "picture": "http://tryfinally.co.za/img/profile.jpg",
     "email": "anilihst@gmail.com",
-    "phone": "0760926242",
+    "phone": "(+27) 760926242",
     "website": "https://tryfinally.co.za",
     "summary": "Ivan du Toit is an eager learner willing to do any task that delivers the most value to the business, large or small. He has a record of keeping track of complex domains while leading high performance teams at companies like Amazon Web Services",
     "location": {
-      "city": "CapeTown",
+      "city": "Cape Town",
       "countryCode": "ZA",
       "region": "Western Cape"
     },
@@ -30,12 +30,14 @@
       "company": "Amazon",
       "position": "Amazon Web Services (Software Development Engineer III)",
       "startDate": "2020-04-01",
-      "summary": "Focus on migrating our legacy GWT stack to a new React based stack as well as a new design system. I also own the management of our shared component repository and drive adoption of a consistent experience and quality across 8 console teams",
+      "summary": "Focus on migrating our legacy GWT stack to a new React based stack as well as a new design system. I also own the management of our shared component repository and drive adoption of a consistent experience and quality across 8 console teams. I also working on the architectural changes required in our backend infrastructure to reduce our infrastructure cost by more than 50%.",
       "highlights": [
         "Create and drive code sharing by changing org culture towards code sharing and ownership",
         "Create tools to facility code and design sharing",
         "Build a analytics solution for our product to drive data driven decisions",
-        "Guide design and migration of our backend infrastructure to a AWS native and serverless solutions"
+        "Guide design and migration of our backend infrastructure to a AWS native and serverless solutions",
+        "Slim down and optimize the backend infrastructure to reduce the cost by more than 50%",
+        "API and customer experience bar raiser for EC2"
       ]
     },
     {
